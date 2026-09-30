@@ -1,7 +1,5 @@
 import java.util.NoSuchElementException;
 
-import static jdk.xml.internal.Utils.isEmpty;
-
 public class ArrayStack {
 
     private Object[] items;
@@ -61,4 +59,3 @@ public class ArrayStack {
     //stack = [1, 2, 3] -- v = stack.size() -> v = 3
     public int size(){return size;}
 }
-
